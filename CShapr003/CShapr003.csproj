@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstract.cs" />
+    <Compile Remove="Interface.cs" />
+    <Compile Remove="OOP.cs" />
+    <Compile Remove="Polymorphism.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="test.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Abstract.cs" />
+    <None Include="Interface.cs" />
+    <None Include="OOP.cs" />
+    <None Include="Polymorphism.cs" />
+    <None Include="Program.cs" />
+    <None Include="test.cs" />
+  </ItemGroup>
+
+</Project>
